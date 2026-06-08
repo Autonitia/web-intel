@@ -39,7 +39,7 @@ python -m web_intel https://example.com
 
 ```bash
 # Single URL
-python -m web_intel https://scrapegraphai.com
+python -m web_intel https://autonitia.ai
 
 # Batch mode (CSV with a 'url' column)
 python -m web_intel --batch examples/batch_urls.csv
@@ -67,36 +67,29 @@ python -m web_intel https://example.com --quiet
 
 ```json
 {
-    "company_name": "ScrapeGraphAI",
-    "description": "The web scraping API built for the AI era...",
-    "founders": [
-        {
-            "name": "Marco Perini",
-            "role": "Founder & Technical Lead",
-            "linkedin": "https://www.linkedin.com/in/perinim/"
-        }
-    ],
+    "company_name": "Autonitia",
+    "description": "AI That Does the Work You Shouldn't. Cut manual hours, increase engagement, and unlock new revenue streams with Autonitia's self-operating systems.",
+    "founders": [],
     "social_media_links": {
         "linkedin": "",
-        "twitter": "https://x.com/scrapegraphai",
-        "github": "https://github.com/ScrapeGraphAI",
-        "discord": "https://discord.gg/JqvBb7wV8j",
-        "reddit": "https://www.reddit.com/r/scrapegraphai/",
-        "medium": "https://medium.com/@scrapegraphai",
-        "youtube": "",
-        "website": "https://scrapegraphai.com",
-        "crunchbase": ""
+        "twitter": "",
+        "github": "https://github.com/Autonitia",
+        "website": "https://autonitia.ai"
     },
-    "pricing": [
-        {"plan": "Free", "price": "$0/mo", "features": ["500 credits/month"]},
-        {"plan": "Starter", "price": "$17/mo", "features": ["10,000 credits/month"]}
+    "features": [
+        "AI Call Assistant",
+        "WhatsApp AI Automation",
+        "Customer Re-Engagement",
+        "CRM + Calendar Automation",
+        "End-to-End Sales Funnel Automation",
+        "Smart Outreach & Upselling",
+        "Custom AI Workflows",
+        "AI-Powered Marketing Automation"
     ],
-    "features": ["AI-Powered Extraction", "Zero Maintenance"],
-    "integrations": ["LangChain", "CrewAI", "n8n", "Zapier"],
-    "contact": {"email": "support@scrapegraphai.com", "phone": "", "address": ""},
-    "year_founded": "",
+    "contact": {"email": "contact@autonitia.ai", "phone": "", "address": ""},
+    "year_founded": "2026",
     "headquarters": "",
-    "is_open_source": true
+    "is_open_source": false
 }
 ```
 
