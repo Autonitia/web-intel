@@ -39,7 +39,7 @@ python -m web_intel https://example.com
 
 ```bash
 # Single URL
-python -m web_intel https://autonitia.ai
+python -m web_intel https://scrapegraphai.com
 
 # Batch mode (CSV with a 'url' column)
 python -m web_intel --batch examples/batch_urls.csv
@@ -67,29 +67,35 @@ python -m web_intel https://example.com --quiet
 
 ```json
 {
-    "company_name": "Autonitia",
-    "description": "AI That Does the Work You Shouldn't. Cut manual hours, increase engagement, and unlock new revenue streams with Autonitia's self-operating systems.",
+    "company_name": "ScrapeGraphAI",
+    "description": "The web scraping API built for the AI era. Extract structured data from any website — no proxies, no selectors, no maintenance needed.",
     "founders": [],
     "social_media_links": {
-        "linkedin": "",
-        "twitter": "",
-        "github": "https://github.com/Autonitia",
-        "website": "https://autonitia.ai"
+        "linkedin": "https://www.linkedin.com/company/scrapegraphai",
+        "twitter": "https://x.com/scrapegraphai",
+        "github": "https://github.com/ScrapeGraphAI",
+        "discord": "https://discord.gg/JqvBb7wV8j",
+        "reddit": "https://www.reddit.com/r/scrapegraphai/",
+        "medium": "https://medium.com/@scrapegraphai",
+        "website": "https://scrapegraphai.com"
     },
-    "features": [
-        "AI Call Assistant",
-        "WhatsApp AI Automation",
-        "Customer Re-Engagement",
-        "CRM + Calendar Automation",
-        "End-to-End Sales Funnel Automation",
-        "Smart Outreach & Upselling",
-        "Custom AI Workflows",
-        "AI-Powered Marketing Automation"
+    "pricing": [
+        {"plan": "Free", "price": "$0/mo", "features": ["500 credits/month", "10 req/min"]},
+        {"plan": "Starter", "price": "$17/mo", "features": ["10,000 credits/month", "100 req/min"]},
+        {"plan": "Growth", "price": "$85/mo", "features": ["100,000 credits/month", "500 req/min"]},
+        {"plan": "Pro", "price": "$425/mo", "features": ["750,000 credits/month", "5,000 req/min"]}
     ],
-    "contact": {"email": "contact@autonitia.ai", "phone": "", "address": ""},
-    "year_founded": "2026",
-    "headquarters": "",
-    "is_open_source": false
+    "features": [
+        "AI-Powered Extraction",
+        "Zero Maintenance",
+        "JavaScript Rendering",
+        "Auto-Adapts to Changes",
+        "Built-in Rate Limiting"
+    ],
+    "integrations": ["LangChain", "CrewAI", "LlamaIndex", "n8n", "Zapier", "Make"],
+    "contact": {"email": "support@scrapegraphai.com"},
+    "year_founded": "",
+    "is_open_source": true
 }
 ```
 
