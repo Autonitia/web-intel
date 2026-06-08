@@ -19,12 +19,9 @@ from .config import HEADERS, SEARCH_DELAY
 
 def _search_duckduckgo(query: str, max_results: int = 3) -> list[dict]:
     try:
-        from duckduckgo_search import DDGS
-        results = []
-        with DDGS() as ddgs:
-            for r in ddgs.text(query, max_results=max_results):
-                results.append({"title": r["title"], "url": r["href"]})
-        return results
+        from ddgs import DDGS
+        ddgs = DDGS()
+        return [{"title": r["title"], "url": r["href"]} for r in ddgs.text(query, max_results=max_results)]
     except Exception:
         return []
 
