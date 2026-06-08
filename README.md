@@ -39,7 +39,7 @@ python -m web_intel https://example.com
 
 ```bash
 # Single URL
-python -m web_intel https://scrapegraphai.com
+python -m web_intel https://providentestate.com
 
 # Batch mode (CSV with a 'url' column)
 python -m web_intel --batch examples/batch_urls.csv
@@ -67,35 +67,31 @@ python -m web_intel https://example.com --quiet
 
 ```json
 {
-    "company_name": "ScrapeGraphAI",
-    "description": "The web scraping API built for the AI era. Extract structured data from any website — no proxies, no selectors, no maintenance needed.",
-    "founders": [],
+    "company_name": "Provident Estate",
+    "description": "Your one-stop for all real estate services, including selling, renting, snagging, conveyancing, mortgages, property management, & expert property consultants.",
+    "founders": [
+        {
+            "name": "Loai Al Fakir",
+            "role": "CEO",
+            "linkedin": "https://ae.linkedin.com/in/loaifakir"
+        }
+    ],
     "social_media_links": {
-        "linkedin": "https://www.linkedin.com/company/scrapegraphai",
-        "twitter": "https://x.com/scrapegraphai",
-        "github": "https://github.com/ScrapeGraphAI",
-        "discord": "https://discord.gg/JqvBb7wV8j",
-        "reddit": "https://www.reddit.com/r/scrapegraphai/",
-        "medium": "https://medium.com/@scrapegraphai",
-        "website": "https://scrapegraphai.com"
+        "website": "https://providentestate.com/"
     },
-    "pricing": [
-        {"plan": "Free", "price": "$0/mo", "features": ["500 credits/month", "10 req/min"]},
-        {"plan": "Starter", "price": "$17/mo", "features": ["10,000 credits/month", "100 req/min"]},
-        {"plan": "Growth", "price": "$85/mo", "features": ["100,000 credits/month", "500 req/min"]},
-        {"plan": "Pro", "price": "$425/mo", "features": ["750,000 credits/month", "5,000 req/min"]}
-    ],
     "features": [
-        "AI-Powered Extraction",
-        "Zero Maintenance",
-        "JavaScript Rendering",
-        "Auto-Adapts to Changes",
-        "Built-in Rate Limiting"
+        "Property Management",
+        "Mortgages",
+        "Conveyancing",
+        "Short Term Rentals",
+        "Property Snagging",
+        "Partner Program",
+        "Currency Exchange"
     ],
-    "integrations": ["LangChain", "CrewAI", "LlamaIndex", "n8n", "Zapier", "Make"],
-    "contact": {"email": "support@scrapegraphai.com"},
-    "year_founded": "",
-    "is_open_source": true
+    "contact": {"email": "", "phone": "", "address": ""},
+    "year_founded": "2008",
+    "headquarters": "Dubai, UAE",
+    "is_open_source": false
 }
 ```
 
